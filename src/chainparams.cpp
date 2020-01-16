@@ -149,7 +149,7 @@ public:
 
         checkpointData = (CCheckpointData) {
           {
-           {0, uint256("0x5f15a8f0d478e93a4579b76c9bc067f713c05166b9db4281a7517d67dd3da8b5") },
+           {0, uint256S("0x5f15a8f0d478e93a4579b76c9bc067f713c05166b9db4281a7517d67dd3da8b5") },
           }
         };
 
@@ -238,9 +238,9 @@ public:
         fRequireStandard = false;
         fMineBlocksOnDemand = false;
 
-        checkpointData =  {
+        checkpointData = (CCheckpointData) {
           {
-             { 0, uint256("0xd0072d3b5da38b438af3c46a66ac5c5afc7e1bd1248297849fd151f834f00333")},
+             { 0, uint256S("0xd0072d3b5da38b438af3c46a66ac5c5afc7e1bd1248297849fd151f834f00333")},
           }
       };
 
